@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ejercicio4-JASH</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            section{
+                font-family: 'Arial';
+                margin-top: 100px;
+                margin: 100px 150px 100px 80px;
+            }
+            p {
+                margin-bottom: 10px;
+            }
+            h1{
+                margin-bottom: 15px;
+            }
+            .justificado{
+                text-align: justify;
+            }
+            .titulo{
+                text-align: center;
+                color: rgb(108, 19, 43);
+            }
+            .negrita{
+                font-weight: bold;
+            }
+            #primer{
+                font-style: italic;
+                text-align: center;
+                font-size: 9pt;
+            }
+        </style>
+    </head>
+    <body>
+        <section>
+            <form action="pagina.jsp" method="post">
+                <table border="0px">
+                    <tbody>
+                        <tr>
+                            <td><label>Checklist:</label></td>
+                            <td>
+                                <label><input type="checkbox" value="1">Primer check</label><br>
+                                <label><input type="checkbox" value="2">Segundo check</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label>Color:</label></td>
+                            <td>
+                                <input type="color">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label>Fecha:</label></td>
+                            <td>
+                                <input type="date" id="fecha" name="fecha">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label>Hora y fecha:</label></td>
+                            <td>
+                                <input type="datetime-local">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label>Email:</label></td>
+                            <td>
+                                <input type="email">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label>Archivo:</label></td>
+                            <td>
+                                <input type="file">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label>Hidden:</label></td>
+                            <td>
+                                <input type="hidden" value="campo_invisible">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label>Mes:</label></td>
+                            <td>
+                                <input type="month">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label>Número:</label></td>
+                            <td>
+                                <input type="number">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label>Contraseña:</label></td>
+                            <td>
+                                <input type="password">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label>Opciones:</label></td>
+                            <td>
+                                <label><input type="radio" value="1">Primera</label><br>
+                                <label><input type="radio" value="2">Segunda</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label>Rango:</label></td>
+                            <td>
+                                <input type="range">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label>Búsqueda:</label></td>
+                            <td>
+                                <input type="search">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label>Teléfono:</label></td>
+                            <td>
+                                <input type="tel">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label>Texto:</label></td>
+                            <td>
+                                <input type="text">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label>Hora:</label></td>
+                            <td>
+                                <input type="time">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label>URL:</label></td>
+                            <td>
+                                <input type="url">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label>Semana:</label></td>
+                            <td>
+                                <input type="week">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <input type="submit" value="Enviar">
+                                <input type="button" value="Botón">
+                                <input type="reset" value="Borrar">
+                                <br><!-- comment -->
+                                <input type="image" src="gk.jpeg" alt="Procesar">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+        </section>
+    </body>
+</html>
